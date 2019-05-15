@@ -9582,7 +9582,7 @@ a.categories__menu__item {
 @media (min-width: 768px) {
   .contacts {
     padding: 9.375rem 0 11.375rem;
-    background: #f8fafb url("./contacts-bg.png") top center no-repeat;
+    background: #f8fafb url("/static/images/contacts-bg.png") top center no-repeat;
     background-size: auto 43.8125rem;
   }
   .contacts header {
