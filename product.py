@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask, render_template, url_for
 
 app = Flask(__name__, static_url_path='/static')
@@ -10,4 +11,18 @@ def product():
 
 if __name__ == '__main__':
   app.run(host = '127.0.0.1', port=8000, debug=True)
+=======
+from flask import Flask, render_template, url_for
+
+app = Flask(__name__, static_url_path='/static')
+
+
+@app.route('/', methods=['GET', 'POST'])
+def product():
+    return render_template('product.html')
+
+
+if __name__ == '__main__':
+  app.run(host = '127.0.0.1', port=8000, debug=True)
+>>>>>>> 6f180bce4de4578d287504502e55f43d17449339
  
